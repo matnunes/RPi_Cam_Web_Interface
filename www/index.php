@@ -304,6 +304,12 @@
             <input id="timelapse_button" type="button" class="btn btn-primary" <?php getdisplayStyle('actions', $userLevel); ?>>
             <input id="md_button" type="button" class="btn btn-primary" <?php getdisplayStyle('settings', $userLevel); ?>>
             <input id="halt_button" type="button" class="btn btn-danger" <?php getdisplayStyle('settings', $userLevel); ?>>
+            <br>
+            <input id="mouse_up" type="button" class="btn btn-primary" <?php getdisplayStyle('settings', $userLevel); ?>>
+            <input id="mouse_down" type="button" class="btn btn-primary" <?php getdisplayStyle('settings', $userLevel); ?>>
+            <input id="mouse_left" type="button" class="btn btn-primary" <?php getdisplayStyle('settings', $userLevel); ?>>
+            <input id="mouse_right" type="button" class="btn btn-primary" <?php getdisplayStyle('settings', $userLevel); ?>>
+            <input id="mouse_click" type="button" class="btn btn-primary" <?php getdisplayStyle('settings', $userLevel); ?>>
          </div>
       </div>
       <div id="secondary-buttons" class="container-fluid text-center">

@@ -259,6 +259,12 @@ function setButtonState(btn_id, disabled, value, cmd=null) {
 
 ajax_status.onreadystatechange = function() {
   if(ajax_status.readyState == 4 && ajax_status.status == 200) {
+            
+    setButtonState("mouse_up", false, "up", "up");
+    setButtonState("mouse_down", false, "down", "down");
+    setButtonState("mouse_left", false, "left", "left");
+    setButtonState("mouse_right", false, "right", "right");
+    setButtonState("mouse_click", false, "click", "click");
 
     if(ajax_status.responseText == "ready") {
       setButtonState("video_button", false, "record video start", "ca 1");
